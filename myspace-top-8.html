@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MySpace Top 8</title>
+    <style>
+        body {
+            width: 85%;
+            margin: auto;
+        }
+
+        h1 {
+            text-align: center;
+        }
+
+        img {
+            border: 3px solid blue;
+        }
+
+        #top-8-wrapper {
+            text-align: center;
+        }
+
+        .friend-card {
+            display: inline-block;
+            margin: 1px;
+            text-align: center;
+        }
+
+        .friend-name {
+            color: blue;
+        }
+    </style>
+</head>
+<body>
+    <!--
+        & Reviewing the Basics that i have gone over so far
+        ~ Every HTML file should have a <!DOCTYPE html> declaration and an <html> element.
+        ~ The <head> element contains important info for our page, such as the <title>.
+        ~ Comments {<!- -> } are great for documentation or excluding unwanted code.
+        ~ Attributes like class/id or src can enhance the way our elements are organized, present, and work on our page.
+        ~ We can add styles to our page using either the <style> element or the style attribute
+    -->
+
+    <!--
+        & Creating a MySpace Top 8 Webpage
+        ~ MySpace was an entry way to the world of social media
+        ~ it had Top 8 -> allowed users to select eight friends to display on their profile page
+        ~ it thus changed the social dynamic in schools everywhere
+            ~ “OMG! Did you remove so-and-so from top 8?"
+            ~ “You've put me in your top friends! BFF <3."
+            ~ “What's-her-name and what's-his-face are not friends?!"
+    -->
+    <div class="top-8-wrapper">
+        <h1>My Top Friends!</h1>
+
+        <div class="top-8-row">
+            <div class="friend-card">
+                <h2 class="friend-name">Nezuko</h2>
+                <img src="a-nezuko.png" alt="Picture of Nezuko Kamado">
+            </div>
+            <div class="friend-card">
+                <h2 class="friend-name">Shinobu</h2>
+                <img src="b-shinobu.png" alt="Picture of Shinobu Kocho
+                ">
+            </div>
+            <div class="friend-card">
+                <h2 class="friend-name">Mitsuri</h2>
+                <img src="c-mitsuri.png" alt="Picture of Mitsuri Kanroji">
+            </div>
+            <div class="friend-card">
+                <h2 class="friend-name">Kanao</h2>
+                <img src="d-kanao.png" alt="Picture of Kanao Tsuyuri">
+            </div>
+        </div>
+
+        <div class="top-8-row">
+            <div class="friend-card">
+                <h2 class="friend-name">Tanjiro</h2>
+                <img src="e-tanjiro.png" alt="Picture of Tanjiro Kamado">
+            </div>
+            <div class="friend-card">
+                <h2 class="friend-name">Kyojuro</h2>
+                <img src="f-kyojuro.png" alt="Picture of Kyojuro Rengoku">
+            </div>
+            <div class="friend-card">
+                <h2 class="friend-name">Muichiro</h2>
+                <img src="g-muichiro.png" alt="Picture of Muichiro Tokito">
+            </div>
+            <div class="friend-card">
+                <h2 class="friend-name">Tengen</h2>
+                <img src="h-tengen.png" alt="Picture of Tengen Uzui">
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
