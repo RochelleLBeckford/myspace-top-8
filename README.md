@@ -11,3 +11,4 @@
 - [ ] Encompass:
   - [ ] HTML
 - [ ] HTML → will be the structure and skeleton of how the app will appear on the webpage
+- [ ] - [ ] Link to visit the webpage: <a href="" target="_blank"></a>
